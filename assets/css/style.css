@@ -1,0 +1,33 @@
+
+#weather-input {
+    margin: 10px;
+}
+
+#search-box {
+    width: 100%;
+}
+
+#search-btn {
+    width: 100%;
+}
+
+#weather-input .seperator {
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    background: #BBBBBB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 5px;
+}
+#todays-forcast {
+    width: 100%;
+    border: solid;
+    height: 250px;
+    margin-top: 2px;
+}
+
