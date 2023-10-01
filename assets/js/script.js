@@ -48,6 +48,10 @@ function loadSearchHistory() {
     searchHistory.innerHTML = "";
     var history = JSON.parse(localStorage.getItem("history"));
     
+    if (history === null) {
+        return;
+    }
+    
     for (var i = 0; i < history.length; i++) {
         var searchEntry = document.createElement("button");
         searchEntry.classList.add("historyBtn")
