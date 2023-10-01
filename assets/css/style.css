@@ -9,25 +9,45 @@
 
 #search-btn {
     width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 #weather-input .seperator {
     height: 1px;
     width: 100%;
     margin: 25px 0;
-    background: #BBBBBB;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card {
-    margin: 5px;
-}
-#todays-forcast {
-    width: 100%;
+#search-history button {
     border: solid;
-    height: 250px;
-    margin-top: 2px;
+    border-block-width: 2px 2px;
+    background-color: #F0F0F0;
+    margin: 5px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 5px;
 }
 
+.card {
+    margin: 5px;
+
+}
+#todays-forcast {
+    border: solid;
+    height: 200px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.img {
+    max-width: 80px;
+  }
