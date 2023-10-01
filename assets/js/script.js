@@ -62,7 +62,7 @@ function loadSearchHistory() {
      // in order to get the forcast we need the cordinates for the city. 
     // this function will return the cordinates of the city we are searching for.
 
-    var requestUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=${API_KEY}`;
+    var requestUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=${API_KEY}`;
     fetch(requestUrl)
         .then(function (response) {
             return response.json();
